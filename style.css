@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; /*pra normalizar os estilos*/
+}
+
+/*header*/
+
+.container{
+    background-color: #2A2A2A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+
+.container-logo{
+    margin-bottom: 10px;
+    max-height: 80px;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li{
+    padding-left: 20px;
+    border: 1px solid #FDD732;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 1px;
+
+}
+
+.nav ul li:hover{
+    color: #f1e5ab;
+}
+.nav ul a {
+    text-decoration: none;
+    color: #FDD732;
+}
+
+
+
+/*Folder 1*/
+.folder1{
+    background-image: linear-gradient(transparent, rgb(255, 255, 86));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.folder1-p{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+
+.folder1-img{
+    display: flex;
+    background-position: center;
+    height: 400px;
+    margin-right: 100px;
+}
+
+.folder1 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.6em;
+    padding: 8px 20px;
+    background-color: #FDD000;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.folder1 a:hover{
+    box-shadow: 0px 1px 1px 0px #0000005d;
+    background-color: #f8d432; 
+}
+
+
+.principais-cursos{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 400px;
+}
+
+.cursos{
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+.cursos p {
+    text-align: left;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.cursos p:nth-child(2) {
+    color:  red;
+    font-size: 20px;
+}
+
+.localizacao{
+    display: flex;
+    justify-content: center;
+}
