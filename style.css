@@ -154,7 +154,7 @@
 .folder2{
     display: flex;
     align-items: center;
-    padding-left: 40px;
+    padding-left: 100px;
     padding-top: 50px;
     margin-top: 80px;
     background-color: #003464;
@@ -167,6 +167,7 @@
 
 .escola{
     padding-left: 35px;
+    margin-left: 50px;
     margin-bottom: 40px;
     width: 495px;
     font-size: 1em;
@@ -181,10 +182,6 @@
 }
 
 
-
-
-
-
 /*contatos*/
 
 .localizacao{
@@ -195,9 +192,18 @@
     padding: 15px;
 }
 
-.localizacao p{
+.localizacao > p{
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     padding: 25px;
+}
+
+.contatos{
+    text-align: right;
+    justify-content: end;
+    align-items: end;
+    margin: 20px;
+    margin-left: 1090px;
+    
 }
