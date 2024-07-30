@@ -207,3 +207,21 @@
     margin-left: 1090px;
     
 }
+
+footer{
+    background-color: #2A2A2A;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #FDD000;
+}
