@@ -68,7 +68,7 @@ body {
     border-radius: 10px;
 }
 
-.btn-primary {
+.btn-um {
     display: inline-block;
     text-decoration: none;
     color: #000;
@@ -79,7 +79,7 @@ body {
     transition: background-color 0.3s;
 }
 
-.btn-primary:hover {
+.btn-um:hover {
     background-color: #f8d432;
     font-weight: bold;
 }
@@ -97,7 +97,7 @@ body {
     color: #333;
 }
 
-.cursos-grid {
+.cursos-card {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -136,7 +136,7 @@ body {
     color: #666;
 }
 
-.btn-secondary {
+.btn-dois {
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -148,7 +148,7 @@ body {
     transition: background-color 0.3s;
 }
 
-.btn-secondary:hover {
+.btn-dois:hover {
     background-color: #555;
 }
 
@@ -221,7 +221,24 @@ footer a:hover {
     color: #fff;
 }
 
-/* Responsive Design */
+@media (max-width: 1700px) {
+    .folder2{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .escola{
+        font-size: 1em;
+        width: 350px;
+    }
+
+    .folder2 img{
+        width: 50%;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -257,7 +274,7 @@ footer a:hover {
         font-size: 1.2em;
     }
 
-    .btn-primary, .btn-secondary {
+    .btn-um, .btn-dois {
         font-size: 0.9em;
         padding: 8px 16px;
     }
